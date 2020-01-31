@@ -1,0 +1,16 @@
+import java.util.TreeSet;
+ class TreeSetExample {
+     public static void main(String args[]) {
+         
+         TreeSet<String> tset = new TreeSet<String>();
+
+         tset.add("Pen");
+         tset.add("Ink");
+         tset.add("rubber");
+
+         //Displaying TreeSet
+         System.out.println(tset);
+
+     }
+    
+}
